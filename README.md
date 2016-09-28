@@ -13,9 +13,9 @@
 ## Tools used for the build
 
 - [vue.js](https://vuejs.org/)
-- [Avalanche](http://colourgarden.net/avalanche/)
 - [vue-loader](https://github.com/vuejs/vue-loader)
 - [vue-router](https://github.com/vuejs/vue-router)
+- [Avalanche](http://colourgarden.net/avalanche/)
 
 ## Work to do
 
