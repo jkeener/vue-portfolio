@@ -45,8 +45,8 @@ export default {
   data () {
     return {
         
-      img1: 'http://lorempixel.com/800/200/city/',
-      img1_info: 'Img one footer',
+      img1: 'http://lorempixel.com/800/200/city/', //link to image here
+      img1_info: 'Img one footer', // this info will show in the footer of the lightbox
         
       img2: 'http://lorempixel.com/250/250/city/',
       img2_info: 'Img two footer',
