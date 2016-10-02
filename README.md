@@ -1,5 +1,7 @@
 # Single page Portfolio with vue.js
 
+This project was created with two ideas in mind: Learn vue.js and create an easy to use portfolio site that artists could use. I saw a lot of my artist friends hard terrible sites and I wanted to help them out.
+
 ## Installation
 
 `npm install` install dependencies

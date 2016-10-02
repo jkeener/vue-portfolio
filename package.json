@@ -1,7 +1,7 @@
 {
   "name": "vue-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "`npm install` install dependencies",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
@@ -32,5 +32,13 @@
     "jquery": "^2.2.2",
     "vue": "^1.0.13",
     "vue-router": "^0.7.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkeener/vue-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkeener/vue-portfolio/issues"
+  },
+  "homepage": "https://github.com/jkeener/vue-portfolio#readme"
 }
