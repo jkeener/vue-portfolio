@@ -18,12 +18,12 @@ This project was created with two ideas in mind: Learn vue.js and create an easy
 - [vue-loader](https://github.com/vuejs/vue-loader)
 - [vue-router](https://github.com/vuejs/vue-router)
 - [Avalanche](http://colourgarden.net/avalanche/)
-- [css-modal](http://drublic.github.io/css-modal/)
+- [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/)
 - [Placeholder images](https://unsplash.com/)
 
 ## Work to do
 
-- [ ] Switch from using the css lightbox to a js based one.
+- [x] Switch from using the css lightbox to a js based one.
 - [ ] Revamp the CSS. (Did some, still needs work though)
 - [x] Automate 'work' page better - now it is several steps to add a picture.
 - [x] Make it possible to add custom footer with work info for all pictures. 
