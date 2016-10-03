@@ -31,7 +31,7 @@
 export default {
   data () {
     return {
-      bioImage: 'http://lorempixel.com/200/250/city/' // put your picture here
+      bioImage: 'assets/images/10.jpg' // put your picture here
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="grid--center">
-      <img class="1/2 grid__cell" :src=homeImage />
+      <img class="1 grid__cell" :src=homeImage />
     </div>
   </div>
 </template>
@@ -10,7 +10,7 @@
 export default {
   data () {
     return {
-      homeImage: 'http://lorempixel.com/g/700/700/city/' // put your picture here
+      homeImage: 'assets/images/9.jpg' // put your picture here
     }
   }
 }

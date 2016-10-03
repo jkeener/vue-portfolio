@@ -1,7 +1,6 @@
 <template>
   <div>
     <header class="name">{{ name }}</header>
-    <hr/>
   </div>
 </template>
 
@@ -18,13 +17,18 @@ export default {
 <style lang="sass" scoped>
 .name {
   margin: 1rem 0;
-  color: grey; //change color of name here
-  font-weight: 700;
   margin-left: 23.9%;
-  font-size: 1.7rem;
+  font-size: 2rem;
+  position: relative;
 }
-hr {
-  width: 76.3%;
-  margin-left: 23.8%;
+.name:after {
+    content:"";
+    background: grey;
+    position: absolute;
+    top: 120%;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
 }
 </style>

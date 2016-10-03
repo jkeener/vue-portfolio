@@ -5,6 +5,7 @@ var Router = require('vue-router')
 var App = require('./components/App.vue')
 // mount a root Vue instance
 var $ = require('jquery');
+var lightbox = require('lightbox2')
 var Home = require('./components/Home.vue')
 var Work = require('./components/Work.vue')
 var Resume = require('./components/Resume.vue')
