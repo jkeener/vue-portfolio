@@ -2,8 +2,8 @@
     <div>
         <div class="grid image-wrapper">
             <div>
-                <a v-for="item in images" class="images" data-lightbox="gallery" v-bind:data-title="item.info" :href="item.img">
-                    <img class="galleryImages 1/4 grid__cell" v-bind:src="item.img">
+                <a v-for="image in images" class="images" data-lightbox="gallery" v-bind:data-title="image.caption" :href="image.img">
+                    <img class="galleryImages 1/4 grid__cell" v-bind:src="image.img">
                 </a>
             </div>
         </div>
@@ -16,14 +16,14 @@ export default {
     return {
         images: [
             //Add your images and information about the image here. The info will appear in the foot of the modal
-            {img: 'assets/images/1.jpg',info: 'Img one info'},
-            {img: 'assets/images/2.jpg',info: 'Img two info'},
-            {img: 'assets/images/3.jpg',info: 'Img three info'},
-            {img: 'assets/images/4.jpg',info: 'Img four info'},
-            {img: 'assets/images/5.jpg',info: 'Img five info'},
-            {img: 'assets/images/6.jpg',info: 'Img six info'},
-            {img: 'assets/images/7.jpg',info: 'Img seven info'},
-            {img: 'assets/images/8.jpg',info: 'Img eight info'},
+            {img: 'assets/images/1.jpg',caption: 'Img one caption'},
+            {img: 'assets/images/2.jpg',caption: 'Img two caption'},
+            {img: 'assets/images/3.jpg',caption: 'Img three caption'},
+            {img: 'assets/images/4.jpg',caption: 'Img four caption'},
+            {img: 'assets/images/5.jpg',caption: 'Img five caption'},
+            {img: 'assets/images/6.jpg',caption: 'Img six caption'},
+            {img: 'assets/images/7.jpg',caption: 'Img seven caption'},
+            {img: 'assets/images/8.jpg',caption: 'Img eight caption'},
         ],
     };
   },
