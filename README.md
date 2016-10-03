@@ -19,7 +19,7 @@ This project was created with two ideas in mind: Learn vue.js and create an easy
 - [vue-router](https://github.com/vuejs/vue-router)
 - [Avalanche](http://colourgarden.net/avalanche/)
 - [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/)
-- [Placeholder images](https://unsplash.com/)
+- [Placeholder images from Unsplash](https://unsplash.com/)
 
 ## Work to do
 
