@@ -19,6 +19,7 @@ export default {
 <style lang="sass" scoped>
 img {
   height: auto;
-padding-top: .7em;
+  padding-top: .7em;
+  filter: drop-shadow(.2em .2em .2em rgba(0,0,0,.6));
 }
 </style>

@@ -40,11 +40,11 @@ export default {
   height: 13rem;
   max-width: 25%;
 }
-.modal-image {
-  max-height: 29rem;
-}
-footer {
-  background-color: white;
-  text-align:center;
-}
+img {
+    filter: drop-shadow(.2em .2em .2em rgba(0,0,0,.6));
+    transition: .3s;
+    }
+img:hover {
+    filter: drop-shadow(.2em .2em .2em rgba(0,0,0,0));
+    }
 </style>

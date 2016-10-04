@@ -99,4 +99,7 @@ a:hover {
 a:visited {
     color: black;
 }
+.lb-container {
+    padding: 0 !important; //this is just overiding some weird styling in the lightbox css
+    }
 </style>
