@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      name: 'Your Name Here' //Put your name here!
+      name: 'James Keener' //Put your name here!
     }
   }
 }
@@ -18,14 +18,15 @@ export default {
 .name {
   margin: 1rem 0;
   margin-left: 23.9%;
-  font-size: 2rem;
+  font-size: 3rem;
   position: relative;
+  font-weight:700;
 }
 .name:after {
     content:"";
     background: grey;
     position: absolute;
-    top: 120%;
+    top: 110%;
     bottom: 0;
     left: 0;
     height: 1px;

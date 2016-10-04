@@ -32,27 +32,27 @@ nav {
     border-right: 1px solid #5596AE;
     text-align: right;
     margin-top: 3rem;
-    font-weight: 400;
+    font-weight: 500;
     li {
         margin-bottom: 20px;
         margin-right: 10px;
     }
-a {
-  text-decoration: none;
-  position: relative;
-}
-a:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0%;
-  border-bottom: 2px solid #5596AE; // change the color of the hover animation here.
-  transition: 0.2s ease-in-out;
-}
+    a {
+      text-decoration: none;
+      position: relative;
+    }
+    a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 0%;
+      border-bottom: 2px solid #5596AE; // change the color of the hover animation here.
+      transition: 0.2s ease-in-out;
+    }
 
-  a:hover:after {
-  width: 100%;
-}
+    a:hover:after {
+      width: 100%;
+    }
 }
 </style>

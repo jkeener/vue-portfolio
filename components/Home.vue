@@ -19,5 +19,6 @@ export default {
 <style lang="sass" scoped>
 img {
   height: auto;
+padding-top: .7em;
 }
 </style>
