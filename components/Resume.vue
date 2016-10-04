@@ -1,4 +1,7 @@
-<template>
+
+ // If you don't need this page, remove it from Navigation.vue, main.js (the require and the router), and App.vue. If you miss somewhere it will show up as an error.
+
+ <template>
   <div class="3/4 grid__cell">
   <section class="resume grid">
         <div class="1/1 grid__cell">

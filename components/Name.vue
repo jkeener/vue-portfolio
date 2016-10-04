@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      name: 'James Keener' //Put your name here!
+      name: 'Your Name Here' //Put your name here!
     }
   }
 }

@@ -15,7 +15,7 @@ export default {
   data () {
     return {
         images: [
-            //Add your images and information about the image here. The info will appear in the foot of the modal
+            //Add your images and captions here.
             {img: 'assets/images/1.jpg',caption: 'Img one caption'},
             {img: 'assets/images/2.jpg',caption: 'Img two caption'},
             {img: 'assets/images/3.jpg',caption: 'Img three caption'},

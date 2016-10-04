@@ -18,7 +18,7 @@
 export default {
   data () {
     return {
-      emailaddress: 'youremailhere@email.com' // email goes here. make sure to leave the mailto:
+      emailaddress: 'youremailhere@email.com' // email goes here.
     }
   }
 }

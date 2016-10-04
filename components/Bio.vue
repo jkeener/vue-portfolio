@@ -1,5 +1,3 @@
-// This page coulds also be a statement page, just remember to change the name of the link in the Navigation.vue file. However, the name of the link will still be wrong, I can walk you through that process if need be.
-
 <template>
   <div>
     <div class="grid bio">

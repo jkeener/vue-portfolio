@@ -47,7 +47,7 @@ a:after {
   bottom: 0;
   right: 0;
   width: 0%;
-  border-bottom: 2px solid #5596AE;
+  border-bottom: 2px solid #5596AE; // change the color of the hover animation here.
   transition: 0.2s ease-in-out;
 }
 
