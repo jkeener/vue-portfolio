@@ -4,6 +4,8 @@ This project was created with two ideas in mind: Learn vue.js and create an easy
 
 ## Installation
 
+Make sure you have [Nodejs](https://nodejs.org/en/) installed
+
 `npm install` install dependencies
 
 `npm install vue --save` incase you don't already have vue installed
