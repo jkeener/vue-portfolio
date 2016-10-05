@@ -10,7 +10,7 @@
 export default {
   data () {
     return {
-      homeImage: 'assets/images/9.jpg' // put the homepage inamge here
+      homeImage: 'vue-portfolio/assets/images/9.jpg' // put the homepage image here
     }
   }
 }

@@ -16,14 +16,14 @@ export default {
     return {
         images: [
             //Add your images and captions here.
-            {img: 'assets/images/1.jpg',caption: 'Img one caption'},
-            {img: 'assets/images/2.jpg',caption: 'Img two caption'},
-            {img: 'assets/images/3.jpg',caption: 'Img three caption'},
-            {img: 'assets/images/4.jpg',caption: 'Img four caption'},
-            {img: 'assets/images/5.jpg',caption: 'Img five caption'},
-            {img: 'assets/images/6.jpg',caption: 'Img six caption'},
-            {img: 'assets/images/7.jpg',caption: 'Img seven caption'},
-            {img: 'assets/images/8.jpg',caption: 'Img eight caption'},
+            {img: 'vue-portfolio/assets/images/1.jpg',caption: 'Img one caption'},
+            {img: 'vue-portfolio/assets/images/2.jpg',caption: 'Img two caption'},
+            {img: 'vue-portfolio/assets/images/3.jpg',caption: 'Img three caption'},
+            {img: 'vue-portfolio/assets/images/4.jpg',caption: 'Img four caption'},
+            {img: 'vue-portfolio/assets/images/5.jpg',caption: 'Img five caption'},
+            {img: 'vue-portfolio/assets/images/6.jpg',caption: 'Img six caption'},
+            {img: 'vue-portfolio/assets/images/7.jpg',caption: 'Img seven caption'},
+            {img: 'vue-portfolio/assets/images/8.jpg',caption: 'Img eight caption'},
         ],
     };
   },
