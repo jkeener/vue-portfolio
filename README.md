@@ -2,6 +2,7 @@
 
 This project was created with two ideas in mind: Learn vue.js and create an easy to use portfolio site that artists could use. I saw a lot of my artist friends hard terrible sites and I wanted to help them out.
 
+A live demo is availible here: [vue-portfolio](http://jameskeener.net/vue-portfolio/)
 ## Installation
 
 Make sure you have [Nodejs](https://nodejs.org/en/) installed

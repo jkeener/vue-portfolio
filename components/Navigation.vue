@@ -1,11 +1,11 @@
 <template>
   <nav>
       <ul>
-          <li><a v-link="{ path: '/home' }">Home</a></li>
-          <li><a v-link="{ path: '/work' }">Work</a></li>
-          <li><a v-link="{ path: '/resume' }">Resume</a></li>
-          <li><a v-link="{ path: '/bio' }">Bio</a></li>
-          <li><a v-link="{ path: '/contact' }">Contact</a></li>
+          <li><a v-link="{ path: '/vue-portfolio/' }">Home</a></li>
+          <li><a v-link="{ path: '/vue-portfolio/work' }">Work</a></li>
+          <li><a v-link="{ path: '/vue-portfolio/resume' }">Resume</a></li>
+          <li><a v-link="{ path: '/vue-portfolio/bio' }">Bio</a></li>
+          <li><a v-link="{ path: '/vue-portfolio/contact' }">Contact</a></li>
       </ul>
     </nav>
 </template>

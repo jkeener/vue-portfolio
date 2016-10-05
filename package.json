@@ -30,6 +30,7 @@
     "avalanche-css": "^1.0.1",
     "css-modal": "^1.4.1",
     "jquery": "^2.2.2",
+    "lightbox2": "^2.8.2",
     "vue": "^1.0.13",
     "vue-router": "^0.7.11"
   },
