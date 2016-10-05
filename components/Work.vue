@@ -32,7 +32,7 @@ export default {
 
 <style lang="sass" scoped>
 
-@import url("/node_modules/lightbox2/src/css/lightbox.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.css"); // I'm using a cdn here but you can replace it with this: /node_modules/lightbox2/src/css/lightbox.css
 
 .galleryImages {
   object-fit:cover;

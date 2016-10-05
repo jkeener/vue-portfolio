@@ -36,7 +36,6 @@ build/Release
 
 # Dependency directories
 node_modules
-!node_modules/lightbox2/src/css/lightbox.css
 jspm_packages
 
 # Optional npm cache directory
