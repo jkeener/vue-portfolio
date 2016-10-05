@@ -29,7 +29,7 @@
 export default {
   data () {
     return {
-      bioImage: 'vue-portfolio/assets/images/10.jpg' // put your picture here
+      bioImage: 'assets/images/10.jpg' // put your picture here
     }
   }
 }

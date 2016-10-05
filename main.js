@@ -17,22 +17,22 @@ var router = new Router({
   history: true,
 })
 router.map({
-  '/vue-portfolio': {
+  '/': {
     component: Home
   },
-  '/vue-portfolio/home': {
+  '/home': {
     component: Home
   },
-  '/vue-portfolio/work': {
+  '/work': {
     component: Work
   },
-  '/vue-portfolio/resume': {
+  '/resume': {
     component: Resume
   },
-  '/vue-portfolio/bio': {
+  '/bio': {
     component: Bio
   },
-  '/vue-portfolio/contact': {
+  '/contact': {
     component: Contact
   }
 })
