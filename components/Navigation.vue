@@ -29,7 +29,7 @@ var $ = require('jquery');
 <style lang="sass" scoped>
 nav {
     font-size: 1.2rem;
-    border-right: 1px solid #5596AE;
+    border-right: 1px solid grey;
     text-align: right;
     margin-top: 3rem;
     font-weight: 500;
@@ -47,7 +47,7 @@ nav {
       bottom: 0;
       right: 0;
       width: 0%;
-      border-bottom: 2px solid #5596AE; // change the color of the hover animation here.
+      border-bottom: 2px solid #5596AE; // change the color of the hover animation here. I just picked a color from the picture in the home section.
       transition: 0.2s ease-in-out;
     }
 
