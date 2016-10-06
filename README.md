@@ -26,6 +26,8 @@ Make sure you have [Nodejs](https://nodejs.org/en/) installed
 
 ## Work to do
 
+- [ ] Write better instructions for changing the nav and routing.
+- [ ] Simplift routing. (I changed to to work on the test site. I should have just used 2 sets of files).
 - [x] Switch from using the css lightbox to a js based one.
 - [ ] Revamp the CSS. (Did some, still needs work though)
 - [x] Automate 'work' page better - now it is several steps to add a picture.
