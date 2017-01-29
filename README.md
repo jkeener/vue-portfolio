@@ -31,4 +31,5 @@ Make sure you have [Nodejs](https://nodejs.org/en/) installed
 - [x] Switch from using the css lightbox to a js based one.
 - [ ] Revamp the CSS. (Did some, still needs work though)
 - [x] Automate 'work' page better - now it is several steps to add a picture.
-- [x] Make it possible to add custom footer with work info for all pictures. 
+- [x] Make it possible to add custom footer with work info for all pictures.
+- [x] Change sample images, files are too big.
