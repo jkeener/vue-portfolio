@@ -2,7 +2,7 @@
 
 This project was created with two ideas in mind: Learn vue.js and create an easy to use portfolio site that artists could use. I saw a lot of my artist friends hard terrible sites and I wanted to help them out.
 
-A live demo is availible here: [vue-portfolio](http://jameskeener.net/vue-portfolio/)
+A live demo is available here: [vue-portfolio](http://jameskeener.net/vue-portfolio/)
 ## Installation
 
 Make sure you have [Nodejs](https://nodejs.org/en/) installed
@@ -20,16 +20,15 @@ Make sure you have [Nodejs](https://nodejs.org/en/) installed
 - [vue.js](https://vuejs.org/)
 - [vue-loader](https://github.com/vuejs/vue-loader)
 - [vue-router](https://github.com/vuejs/vue-router)
-- [Avalanche](http://colourgarden.net/avalanche/)
 - [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/)
 - [Placeholder images from Unsplash](https://unsplash.com/)
 
 ## Work to do
 
 - [ ] Write better instructions for changing the nav and routing.
-- [ ] Simplift routing. (I changed to to work on the test site. I should have just used 2 sets of files).
+- [ ] Simplify routing. (I changed to to work on the test site. I should have just used 2 sets of files).
 - [x] Switch from using the css lightbox to a js based one.
-- [ ] Revamp the CSS. (Did some, still needs work though)
+- [x] Revamp the CSS. (Did some, still needs work though)
 - [x] Automate 'work' page better - now it is several steps to add a picture.
 - [x] Make it possible to add custom footer with work info for all pictures.
 - [x] Change sample images, files are too big.

@@ -1,13 +1,9 @@
 <template>
-    <div>
-        <div class="grid image-wrapper">
-            <div>
+        <div class="image-wrapper">
                 <a v-for="image in images" class="images" data-lightbox="gallery" v-bind:data-title="image.caption" :href="image.img">
-                    <img class="galleryImages 1/4 grid__cell" v-bind:src="image.img">
+                    <img class="galleryImages" v-bind:src="image.img">
                 </a>
-            </div>
         </div>
-    </div>
 </template>
 
 <script>
@@ -34,17 +30,27 @@ export default {
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.css"); // I'm using a cdn here but you can replace it with this: /node_modules/lightbox2/src/css/lightbox.css
 
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .galleryImages {
   object-fit:cover;
-  padding-bottom: 20px;
-  height: 13rem;
-  max-width: 25%;
+  height: 200px;
+  max-width: 200px;
+  margin: .5em;
 }
 img {
-    filter: drop-shadow(.2em .2em .2em rgba(0,0,0,.6));
-    transition: .3s;
-    }
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 img:hover {
-    filter: drop-shadow(.2em .2em .2em rgba(0,0,0,0));
-    }
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+@media screen and (min-width: 900px) {
+  .image-wrapper {
+    justify-content: space-around;
+  }
+}
 </style>

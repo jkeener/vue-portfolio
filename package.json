@@ -27,7 +27,6 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "avalanche-css": "^1.0.1",
     "css-modal": "^1.4.1",
     "jquery": "^2.2.2",
     "lightbox2": "^2.8.2",

@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div class="grid--center">
-      <img class="1 grid__cell" :src=homeImage />
-    </div>
+      <img v-bind:src="homeImage" >
   </div>
 </template>
 
@@ -18,8 +16,6 @@ export default {
 
 <style lang="sass" scoped>
 img {
-  height: auto;
-  padding-top: .7em;
-  filter: drop-shadow(.2em .2em .2em rgba(0,0,0,.6));
+  width:100%;
 }
 </style>

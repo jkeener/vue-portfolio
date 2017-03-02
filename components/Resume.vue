@@ -2,16 +2,21 @@
  // If you don't need this page, remove it from Navigation.vue, main.js (the require and the router), and App.vue. If you miss somewhere it will show up as an error.
 
  <template>
-  <div class="3/4 grid__cell">
-  <section class="resume grid">
-        <div class="1/1 grid__cell">
+  <div>
+    <div class="border">
+
+    </div>
+  <section>
           <h2>Solo Exhibitions</h2>
+        <div class="show-section" v-for="show in solo">
+          <p >{{show.date}}</p>
+          <p>{{show.name}}</p>
         </div>
-        <p class="1/1 grid__cell" v-for="show in solo">{{show.date}}<span>{{show.name}}</span></p>
-        <div class="1/1 grid__cell">
           <h2>Group Exhibitions</h2>
+        <div class="show-section" v-for="show in group">
+          <p >{{show.date}}</p>
+          <p>{{show.name}}</p>
         </div>
-        <p class="1/1 grid__cell" v-for="show in group">{{show.date}}<span>{{show.name}}</span></p>
   </section>
 </div>
 </template>
@@ -42,21 +47,18 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.resume {
-    p {
-        font-weight: 700;
-        padding-bottom: 5px;
-        span {
-            margin-left: 3%;
-            font-weight: 400;
-        }
-    }
-    h2 {
-        text-decoration: underline;
-        color: darkgray;
-        font-weight: 700;
-        font-size: 1rem;
-        padding: 10px;
-    }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  width: 100%;
+}
+.show-section {
+  display: flex;
+}
+p:first-child {
+  margin-right: .5em;
 }
 </style>

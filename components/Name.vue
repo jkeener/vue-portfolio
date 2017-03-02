@@ -1,6 +1,8 @@
 <template>
   <div>
-    <header class="name">{{ name }}</header>
+    <header>
+      <h1>{{ name }}</h1>
+    </header>
   </div>
 </template>
 
@@ -15,21 +17,19 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.name {
-  margin: 1rem 0;
-  margin-left: 23.9%;
-  font-size: 3rem;
-  position: relative;
-  font-weight:700;
+
+header {
+  font-weight: 700;
+  text-align: center;
+  width:100%;
 }
-.name:after {
-    content:"";
-    background: grey;
-    position: absolute;
-    top: 110%;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    width: 100%;
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+@media screen and (min-width: 800px) {
+  header {
+    text-align: left;
+  }
 }
 </style>

@@ -17,6 +17,9 @@ var router = new Router({
   history: true,
 })
 router.map({
+  '/': {
+    component: Home
+  },
   '/vue-portfolio': {
     component: Home
   },
